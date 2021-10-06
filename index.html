@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Cores :)</title>
+</head>
+<body>
+    <div class="background"></div>
+
+    <header>
+     <i class="material-icons">color_lens
+        </i> As cores
+    </header>
+
+    <div id="botoes">
+        <div class="cor">
+            <div class="quadrado" id="corVermelha"></div>
+            <input type="range" name="vermelho" id="vermelho" min="0" max="255">
+            <p id="pcVermelho"></p>
+        </div>
+        <i class="material-icons">add</i>
+        <div class="cor">
+            <div class="quadrado" id="corVerde"></div>
+            <input type="range" name="verde" id="verde" min="0" max="255" initial-value="255">
+            <p id="pcVerde"></p>
+        </div>
+        <i class="material-icons">add</i>
+        <div class="cor">
+            <div class="quadrado" id="corAzul"></div>
+            <input type="range" name="azul" id="azul" min="0" max="255">
+            <p id="pcAzul"></p>
+        </div>
+        <i>=</i>
+        <div id="resultado"></div>
+    </div>
+    <div class="texto">Cores no formato  <strong> RGB</strong> - red (vermelho), green (verde) e blue (azul). Misture-as e veja os resultados! :)</div>
+    
+    <section id="conteudo">
+        <h1>As cores</h1>
+        <p id="sinal">+</p>
+    </section>
+    <article><p>As cores que conhecemos são provenientes dos diferentes <b>comprimentos de ondas eletromagnéticas da luz</b>. A luz branca é a soma de todas as cores. Quando ela é decomposta por algum tipo de material, como o <strong>prisma</strong>, podemos visualizar as cores do <strong>espectro visível</strong> ao olho humano.</p>
+        <br>
+        <p><h1>O espectro visível:</h1></p><br>
+        <div id="espectro"></div><br>
+    
+        <p>Acima estão as cores que fazem parte do espectro visível aos olhos humanos. Isso quer dizer que só enxergamos essas cores ou as variações de tonalidade delas. As ondas de luz que estão "antes" do vermelho no espectro das cores é chamada de <strong>infravermelho</strong> e as que estão "depois" do violeta são chamadas de <strong>ultravioleta</strong>. Não podemos enxergar ondas de luz nessas frequência a olho nu, mas para isso utilizamos equipamentos especiais, a exemplo, <strong>câmeras de sensor térmico</strong>.</p>
+        <br>
+        <p>Tradicionalmente se estuda que as cores <strong>vermelho, amarelo e azul</strong> são cores <strong>puras e primárias</strong>, pois a mistura delas resulta em outras cores, chamadas <strong>cores secundárias</strong>, o <strong>laranja (vermelho + amarelo), o verde (azul + amarelo) e o roxo (azul + vermelho).</strong></p>
+        
+        <br>
+        <h1>Cores na era digital:</h1>
+        <br>
+        <p>Estamos convivendo com os aparelhos digitais cada dia mais. E eles também transmitem imagens e cores. Mas, a base de cores dos celulares, computadores, TVs, dentre outros, é o vermelho, verde e o azul ou <strong>R (red) G (green) B (blue)</strong> em inglês. A mistura dessas cores resulta em milhares de tons diferentes que podemos ver através de nossos dispositivos.</p>
+        </article>
+    
+    <img src="images/disco_newton.png">
+
+    <footer>Desenvolvido por Moacir David</footer>
+       
+
+    <script src="script.js"></script>
+</body>
+</html>
